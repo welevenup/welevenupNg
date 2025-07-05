@@ -2,6 +2,7 @@
   "name": "welevenup",
   "version": "0.0.0",
   "scripts": {
+    "vercel-build": "ng build --configuration production",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
