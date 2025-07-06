@@ -14,3 +14,17 @@ html, body {
 body::-webkit-scrollbar {
   display: none;                 // Chrome, Safari
 }
+
+.bg-primary{
+     background-color: rgb(157,157, 157) !important;
+}
+.bg-primary-light{
+  background-color:   rgb(218,218,218);
+}
+.text-primary{
+  color: rgb(157,157, 157) !important;
+}
+
+.fs-7{
+  font-size: 13px;
+}
