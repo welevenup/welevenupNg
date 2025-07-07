@@ -2,30 +2,32 @@
     <div class="container ">
         <div class="row g-0 ">
             <div class="col-12 text-center">
-                <span class="fs-3 text-primary fw-semibold">
+                <span class="fs-2 text-primary fw-semibold">
                     Our Services
                 </span>
             </div>
             <div class="col-12 row">
                 <div class="row g-0">
-                    <div class="col-7 col-sm-6 col-md-4 p-1" *ngFor="let card of cards">
-
-                        <div class="card p-1 border-dark">
-                           <div class="row g-0">
-                            <div class="col-12">
-                                <img [src]="card.icon" [alt]="card.title" class="rounded-pill p-2 bg-primary-light">
+                    <div class="col-7 col-sm-6 col-md-4 px-3 py-2 my-1 d-flex justify-content-evenly"
+                        *ngFor="let card of cards">
+                        <div class="card px-3 py-2 mx-auto rounded-4"
+                            style="border: 1px solid rgb(177, 177, 177);">
+                            <div class="row g-0">
+                                <div class="col-12">
+                                    <img [src]="card.icon" [alt]="card.title" class="rounded-pill p-2 bg-primary-light"
+                                        width="50px" height="50px">
+                                </div>
+                                <div class="col-12 mt-1">
+                                    <span class="text-primary fs-3 fw-semibold">
+                                        {{card.title}}
+                                    </span>
+                                </div>
+                                <div class="col-12">
+                                    <span class="text-dark fs-7">
+                                        {{card.text}}
+                                    </span>
+                                </div>
                             </div>
-                            <div class="col-12 mt-1">
-                                <span class="text-primary fs-5">
-                                    {{card.title}}
-                                </span>
-                            </div>
-                            <div class="col-12">
-                                <span class="text-dark fs-7">
-                                    {{card.text}}
-                                </span>
-                            </div>
-                           </div>
                         </div>
                     </div>
                 </div>

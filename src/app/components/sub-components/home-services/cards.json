@@ -1,36 +1,36 @@
 [
   {
-    "icon": "/icons/uiux-icon.png",
+    "icon": "/icons/welevenup.png",
     "title": "UI/UX Design",
     "text": "Crafting seamless, user-first interfaces that look great and feel intuitive across every screen.",
     "rlink": "/services/ui-ux-design"
   },
   {
-    "icon": "/icons/graphics-icon.png",
+    "icon": "/icons/welevenup.png",
     "title": "Graphics Design",
     "text": "Creating bold, on-brand visuals from social posts to digital assets—that leave a lasting impact.",
     "rlink": "/services/graphics-design"
   },
   {
-    "icon": "/icons/video-icon.png",
+    "icon": "/icons/welevenup.png",
     "title": "Video Editing",
     "text": "Turning raw footage into captivating stories with sleek transitions, sound design, and style.",
     "rlink": "/services/video-editing"
   },
   {
-    "icon": "/icons/web-icon.png",
+    "icon": "/icons/welevenup.png",
     "title": "Web Development",
     "text": "Building fast, responsive and scalable websites using modern technologies and clean code.",
     "rlink": "/services/web-development"
   },
   {
-    "icon": "/icons/mobile-icon.png",
+    "icon": "/icons/welevenup.png",
     "title": "Mobile Development",
     "text": "Developing smooth, high-performance mobile apps that bring your ideas to life on iOS and Android.",
     "rlink": "/services/mobile-development"
   },
   {
-    "icon": "/icons/seo-icon.png",
+    "icon": "/icons/welevenup.png",
     "title": "SEO Optimization",
     "text": "Improving visibility and ranking through smart SEO strategies that drive real, organic growth.",
     "rlink": "/services/seo-optimization"
