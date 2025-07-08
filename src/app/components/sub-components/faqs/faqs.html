@@ -1,1 +1,29 @@
-<p>faqs works!</p>
+<div class="bg-primary py-3">
+    <div class="container ">
+        <div class="row g-0 justify-content-center">
+            <div class="col-10 mb-2 px-5">
+                <span class="fs-4 text-dark fw-bold text-white ">
+                    How we do it ?
+                </span>
+            </div>
+            <div class="col-10">
+                <div style="display: flex ;justify-content: center;" class="w-100">
+                    <div class="accordion mb-5 accordian-faq mt-3 w-100 px-5">
+                        <div *ngFor="let item of items" class="accordion-item bg-primary w-100"
+                            style="border: none; border-bottom: 1px solid rgb(216, 215, 215); border-radius: 0px;">
+                            <div class="d-flex justify-content-between border-0 accordion-title"
+                                (click)="toggleItem(item)">
+                                <span class="fw-normal">{{ item.title }}</span>
+                                <i class="fa-solid fs-6 text-dark bg-primary-light py-1 px-2 rounded-pill arrow-icon"
+                                    [ngClass]="{'fa-chevron-down secondary-color': item.isOpen, 'fa-chevron-right primary-color': !item.isOpen}"></i>
+                            </div>
+                            <div class="accordion-content text-white" [ngClass]="item.isOpen? 'open':'closed'">
+                                {{ item.content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

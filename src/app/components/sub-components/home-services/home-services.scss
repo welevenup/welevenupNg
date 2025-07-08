@@ -1,0 +1,33 @@
+.card-container {
+    perspective: 1200px;
+}
+.img-container{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%  ;
+    background-color: rgb(157, 157, 157);
+    transition: transform 0.3s ease;
+ 
+}
+img {
+    transition: transform 0.3s ease;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    transform: rotateY(-20deg) rotateX(10deg);
+.img-container{
+            transform: translate(-15px, -10px);
+
+}
+    img {
+        transform: translate(-15px, -10px);
+    }
+}

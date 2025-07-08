@@ -3,6 +3,7 @@ import { Home } from './components/pages/home/home';
 import { About } from './components/pages/about/about';
 import { Projects } from './components/pages/projects/projects';
 import { Services } from './components/pages/services/services';
+import { Test } from './test/test';
 
 
 export const routes: Routes = [
@@ -21,7 +22,11 @@ export const routes: Routes = [
     {
         path: 'About',
         component: About
-    }
+    },
+    {
+        path: 'test',
+        component: Test
+    },
     
 
 ];
