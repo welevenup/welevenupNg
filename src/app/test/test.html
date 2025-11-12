@@ -1,1 +1,25 @@
-<p>test works!</p>
+<div class="filter-buttons" style="margin-top: 100px;">
+    <button *ngFor="let category of categories" [class.active]="selectedCategory === category.id"
+        (click)="selectCategory(category.id)">
+        {{ category.name }}
+    </button>
+</div>
+<div *ngIf="selectedCategory === 'all'" class="content-section">
+    <h3>All Projects</h3>
+    <p>Explore everything we’ve created — a blend of creativity and technology!</p>
+</div>
+
+<div *ngIf="selectedCategory === 'web'" class="content-section">
+    <h3>Web Development</h3>
+    <p>Beautiful, fast, and scalable web applications built with passion </p>
+</div>
+
+<div *ngIf="selectedCategory === 'ui'" class="content-section">
+    <h3>UI & Branding</h3>
+    <p>Designs that make your brand shine</p>
+</div>
+
+<div *ngIf="selectedCategory === 'ai'" class="content-section">
+    <h3>AI Projects</h3>
+    <p>Smart and innovative AI solutions for a better tomorrow </p>
+</div>
