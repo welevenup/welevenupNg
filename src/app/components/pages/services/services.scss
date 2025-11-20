@@ -1,0 +1,44 @@
+.btn-primary,
+.primary-btn {
+    background: rgb(30,25,57) !important;
+    border-color: #ba568a !important;
+}
+
+.btn-outline-primary {
+    color: #ba568a !important;
+    border-color: #ba568a !important;
+}
+
+.btn-outline-primary:hover {
+    background: #ba568a !important;
+    color: #fff !important;
+}
+
+h2,
+h4,
+.fw-semibold {
+    color: rgb(30, 25, 57);
+}
+
+.icon {
+    color: #ba568a;
+}
+:host {
+    display: block;
+    font-family: Inter, system-ui, -apple-system;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.service-card {
+    border-radius: 14px;
+    transition: 0.25s ease;
+    border-color: rgb(30,25,57);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
